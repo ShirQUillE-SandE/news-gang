@@ -17,19 +17,9 @@ As a user I would like to:
 * See the image, description and time the news article was created
 * Click on an article and read it fully from the news source
 
-## Specifications
-| Behaviour | Input | Output |
-| :---------------- | :---------------: | ------------------: |
-| Display news sources | **On page load** | List of various news sources is displayed in a list |
-| Display tabs with news by category | **On Tab link click** | Clickable links to open news based on category |
-| Display articles from a news source | **Click a news source** | Redirected to a page with articles from the source |
-| Display the preview of an article | **On page load** | Each article displays an image,description and publication date |
-| To Read an entire article  | **Click an article** | Redirected to the news source's site to read the entire article |
-
-
 ## SetUp / Installation Requirements
 ### Prerequisites
-* python3.6
+* python3
 * pip
 * virtualenv
 
@@ -37,15 +27,15 @@ As a user I would like to:
 ## Running the Application
 * Creating the virtual environment
 
-        $ python3.6 -m venv --without-pip virtual
+        $ python3 -m venv --without-pip virtual
         $ source virtual/bin/env
         $ curl https://bootstrap.pypa.io/get-pip.py | python
 
 * Installing Flask and other Modules
 
-        $ python3.6 -m pip install Flask
-        $ python3.6 -m pip install Flask-Bootstrap
-        $ python3.6 -m pip install Flask-Script
+        $ python3 -m pip install Flask
+        $ python3 -m pip install Flask-Bootstrap
+        $ python3 -m pip install Flask-Script
 
 * Setting up the API Key
 
@@ -71,7 +61,7 @@ As a user I would like to:
         $ python3.6 manage.py tests
 
 ## Technologies Used
-* Python3.6
+* Python3
 * Flask
 
 ## License
